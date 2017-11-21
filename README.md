@@ -1,6 +1,6 @@
-#Demo of running Caffe and TensorFlow models on Predix
+# Demo of running Caffe and TensorFlow models on Predix
 
-##by Dattaraj J Rao - Principal Architect - GE Transportation - <a href='mailto:Dattaraj.Rao@ge.com'>Dattaraj.Rao@ge.com</a>
+## by Dattaraj J Rao - Principal Architect - GE Transportation - <a href='mailto:Dattaraj.Rao@ge.com'>Dattaraj.Rao@ge.com</a>
 
 This code will be shown as part of the webinar: https://www.techgig.com/webinar/Deep-Learning-on-Predix-for-Image-Recognition-1163
 
