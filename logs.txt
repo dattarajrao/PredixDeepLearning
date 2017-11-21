@@ -1,0 +1,806 @@
+Retrieving logs for app [36;1mwebinar-demo-dattaraj[0m in org [36;1mGET_Digital_Solutions[0m / space [36;1mLOCOVISION-DEV[0m as [36;1mdattaraj.rao@ge.com[0m...
+
+   2017-11-21T12:30:53.29+0530 [API/7] OUT Created app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:31:15.69+0530 [DEA/241] OUT Got staging request for app with id 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:31:17.76+0530 [API/8] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STARTED"})
+   2017-11-21T12:31:18.05+0530 [STG/241] OUT -----> Downloaded app package (22M)
+   2017-11-21T12:31:18.64+0530 [STG/0] OUT -----> Preparing Python Environment...
+   2017-11-21T12:31:19.53+0530 [STG/0] OUT PREFIX=/tmp/staged/app/.conda
+   2017-11-21T12:31:19.93+0530 [STG/0] OUT installing: python-3.6.3-hc9025b9_1 ...
+   2017-11-21T12:31:23.29+0530 [STG/0] OUT installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+   2017-11-21T12:31:25.29+0530 [STG/0] OUT installing: openssl-1.0.2l-h077ae2c_5 ...
+   2017-11-21T12:31:26.10+0530 [STG/0] OUT installing: tk-8.6.7-h5979e9b_1 ...
+   2017-11-21T12:31:26.62+0530 [STG/0] OUT installing: xz-5.2.3-h2bcbf08_1 ...
+   2017-11-21T12:31:26.81+0530 [STG/0] OUT installing: zlib-1.2.11-hfbfcf68_1 ...
+   2017-11-21T12:31:26.97+0530 [STG/0] OUT installing: readline-7.0-hac23ff0_3 ...
+   2017-11-21T12:31:27.33+0530 [STG/0] OUT installing: asn1crypto-0.22.0-py36h265ca7c_1 ...
+   2017-11-21T12:31:27.51+0530 [STG/0] OUT installing: chardet-3.0.4-py36h0f667ec_1 ...
+   2017-11-21T12:31:27.60+0530 [STG/0] OUT installing: idna-2.6-py36h82fb2a8_1 ...
+   2017-11-21T12:31:27.67+0530 [STG/0] OUT installing: pycosat-0.6.2-py36h1a0ea17_1 ...
+   2017-11-21T12:31:27.75+0530 [STG/0] OUT installing: pycparser-2.18-py36hf9f622e_1 ...
+   2017-11-21T12:31:28.05+0530 [STG/0] OUT installing: cffi-1.10.0-py36had8d393_1 ...
+   2017-11-21T12:31:28.14+0530 [STG/0] OUT installing: setuptools-36.5.0-py36he42e2e1_0 ...
+   2017-11-21T12:31:28.29+0530 [STG/0] OUT installing: cryptography-2.0.3-py36ha225213_1 ...
+   2017-11-21T12:31:28.90+0530 [STG/0] OUT installing: pyopenssl-17.2.0-py36h5cc804b_0 ...
+   2017-11-21T12:31:28.97+0530 [STG/0] OUT installing: urllib3-1.22-py36hbe7ace6_0 ...
+   2017-11-21T12:31:29.06+0530 [STG/0] OUT installing: requests-2.18.4-py36he2e5f8d_1 ...
+   2017-11-21T12:31:29.36+0530 [STG/0] OUT -----> Installing Dependencies...
+   2017-11-21T12:31:36.33+0530 [STG/0] OUT # All requested packages already installed.
+   2017-11-21T12:31:36.33+0530 [STG/0] OUT conda                     4.3.30           py36h5d9f9f4_0  
+   2017-11-21T12:31:39.64+0530 [STG/0] OUT The following packages will be UPDATED:
+   2017-11-21T12:31:39.64+0530 [STG/0] OUT     pip: 9.0.1-py36h8ec8b28_3 --> 9.0.1-py36h6c6f9ce_4
+   2017-11-21T12:31:39.73+0530 [STG/0] OUT -----> Installing pip packages from requirements.txt...
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT Will remove the following tarballs:
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2     149 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3.tar.bz2             1.7 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT readline-7.0-hac23ff0_3.tar.bz2              387 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT libffi-3.2.1-h4deb6c0_3.tar.bz2               43 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pycparser-2.18-py36hf9f622e_1.tar.bz2        169 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT requests-2.18.4-py36he2e5f8d_1.tar.bz2        92 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1.tar.bz2             2 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2       78 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2        2.5 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT ncurses-6.0-h06874d7_1.tar.bz2               907 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT cryptography-2.0.3-py36ha225213_1.tar.bz2     591 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pycosat-0.6.2-py36h1a0ea17_1.tar.bz2         104 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pip-9.0.1-py36h6c6f9ce_4.tar.bz2             2.2 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT chardet-3.0.4-py36h0f667ec_1.tar.bz2         190 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2           6.1 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT idna-2.6-py36h82fb2a8_1.tar.bz2              122 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2     205 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT openssl-1.0.2l-h077ae2c_5.tar.bz2            3.4 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2     263 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT wheel-0.29.0-py36he7f4e38_1.tar.bz2           88 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT pysocks-1.6.7-py36hd97a5b1_1.tar.bz2          22 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT urllib3-1.22-py36hbe7ace6_0.tar.bz2          155 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1.tar.bz2             20 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT sqlite-3.20.1-h6d8b0f3_1.tar.bz2             1.5 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT libedit-3.1-heed3624_0.tar.bz2               171 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT zlib-1.2.11-hfbfcf68_1.tar.bz2               101 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT xz-5.2.3-h2bcbf08_1.tar.bz2                  356 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT cffi-1.10.0-py36had8d393_1.tar.bz2           206 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT conda-4.3.30-py36h5d9f9f4_0.tar.bz2          511 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT setuptools-36.5.0-py36he42e2e1_0.tar.bz2     512 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2     210 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT yaml-0.1.7-h96e3832_1.tar.bz2                 84 KB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT tk-8.6.7-h5979e9b_1.tar.bz2                  3.2 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT python-3.6.3-hc9025b9_1.tar.bz2             27.0 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT Total:                                      53.1 MB
+   2017-11-21T12:32:04.83+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pip-9.0.1-py36h8ec8b28_3.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed readline-7.0-hac23ff0_3.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed libffi-3.2.1-h4deb6c0_3.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pycparser-2.18-py36hf9f622e_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed requests-2.18.4-py36he2e5f8d_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed conda-env-2.6.0-h36134e3_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed ncurses-6.0-h06874d7_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed cryptography-2.0.3-py36ha225213_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pycosat-0.6.2-py36h1a0ea17_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pip-9.0.1-py36h6c6f9ce_4.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed chardet-3.0.4-py36h0f667ec_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed idna-2.6-py36h82fb2a8_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed openssl-1.0.2l-h077ae2c_5.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed wheel-0.29.0-py36he7f4e38_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed pysocks-1.6.7-py36hd97a5b1_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed urllib3-1.22-py36hbe7ace6_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed six-1.10.0-py36hcac75e4_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed sqlite-3.20.1-h6d8b0f3_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed libedit-3.1-heed3624_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed zlib-1.2.11-hfbfcf68_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed xz-5.2.3-h2bcbf08_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed cffi-1.10.0-py36had8d393_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed conda-4.3.30-py36h5d9f9f4_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed setuptools-36.5.0-py36he42e2e1_0.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed yaml-0.1.7-h96e3832_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed tk-8.6.7-h5979e9b_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Removed python-3.6.3-hc9025b9_1.tar.bz2
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Will remove the following packages:
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1                     4 KB
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3                     6.4 MB
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Total:                                       6.4 MB
+   2017-11-21T12:32:04.90+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:32:04.96+0530 [STG/0] OUT removing conda-env-2.6.0-h36134e3_1
+   2017-11-21T12:32:04.96+0530 [STG/0] OUT removing pip-9.0.1-py36h8ec8b28_3
+   2017-11-21T12:32:04.99+0530 [STG/0] OUT -----> Fixing paths...
+   2017-11-21T12:32:05.53+0530 [STG/0] OUT -----> Finished compile step
+   2017-11-21T12:32:08.09+0530 [API/7] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"name"=>"webinar-demo-dattaraj", "command"=>"PRIVATE DATA HIDDEN", "memory"=>4096, "disk_quota"=>2048, "buildpack"=>"https://github.com/ihuston/python-conda-buildpack.git", "environment_json"=>"PRIVATE DATA HIDDEN"})
+   2017-11-21T12:32:21.68+0530 [API/1] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STOPPED"})
+   [31m2017-11-21T12:32:22.77+0530 [API/8] ERR encountered error: Stager error: failed to stage application:[0m
+   [31m2017-11-21T12:32:22.77+0530 [API/8] ERR Error staging: task stopped[0m
+   2017-11-21T12:32:25.27+0530 [DEA/25] OUT Got staging request for app with id 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:32:27.02+0530 [API/6] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STARTED"})
+   2017-11-21T12:32:27.30+0530 [STG/25] OUT -----> Downloaded app package (22M)
+   [31m2017-11-21T12:32:27.43+0530 [STG/0] ERR     Cloning into '/tmp/buildpacks/python-conda-buildpack'...[0m
+   2017-11-21T12:32:27.85+0530 [STG/0] OUT     -----> Starting compile step...
+   2017-11-21T12:32:27.85+0530 [STG/0] OUT -----> Preparing Python Environment...
+   2017-11-21T12:32:27.85+0530 [STG/0] OUT -----> Downloading Miniconda...
+   2017-11-21T12:32:29.07+0530 [STG/0] OUT PREFIX=/tmp/staged/app/.conda
+   2017-11-21T12:32:29.45+0530 [STG/0] OUT installing: python-3.6.3-hc9025b9_1 ...
+   [31m2017-11-21T12:32:32.65+0530 [STG/0] ERR Python 3.6.3 :: Anaconda, Inc.[0m
+   2017-11-21T12:32:32.65+0530 [STG/0] OUT installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+   2017-11-21T12:32:32.74+0530 [STG/0] OUT installing: conda-env-2.6.0-h36134e3_1 ...
+   2017-11-21T12:32:32.80+0530 [STG/0] OUT installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+   2017-11-21T12:32:33.62+0530 [STG/0] OUT installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+   2017-11-21T12:32:33.98+0530 [STG/0] OUT installing: libffi-3.2.1-h4deb6c0_3 ...
+   2017-11-21T12:32:34.05+0530 [STG/0] OUT installing: ncurses-6.0-h06874d7_1 ...
+   2017-11-21T12:32:34.76+0530 [STG/0] OUT installing: openssl-1.0.2l-h077ae2c_5 ...
+   2017-11-21T12:32:35.56+0530 [STG/0] OUT installing: tk-8.6.7-h5979e9b_1 ...
+   2017-11-21T12:32:36.07+0530 [STG/0] OUT installing: xz-5.2.3-h2bcbf08_1 ...
+   2017-11-21T12:32:36.18+0530 [STG/0] OUT installing: yaml-0.1.7-h96e3832_1 ...
+   2017-11-21T12:32:36.25+0530 [STG/0] OUT installing: zlib-1.2.11-hfbfcf68_1 ...
+   2017-11-21T12:32:36.32+0530 [STG/0] OUT installing: libedit-3.1-heed3624_0 ...
+   2017-11-21T12:32:36.41+0530 [STG/0] OUT installing: readline-7.0-hac23ff0_3 ...
+   2017-11-21T12:32:36.53+0530 [STG/0] OUT installing: sqlite-3.20.1-h6d8b0f3_1 ...
+   2017-11-21T12:32:36.79+0530 [STG/0] OUT installing: asn1crypto-0.22.0-py36h265ca7c_1 ...
+   2017-11-21T12:32:36.87+0530 [STG/0] OUT installing: certifi-2017.7.27.1-py36h8b7b77e_0 ...
+   2017-11-21T12:32:36.96+0530 [STG/0] OUT installing: chardet-3.0.4-py36h0f667ec_1 ...
+   2017-11-21T12:32:37.05+0530 [STG/0] OUT installing: idna-2.6-py36h82fb2a8_1 ...
+   2017-11-21T12:32:37.13+0530 [STG/0] OUT installing: pycosat-0.6.2-py36h1a0ea17_1 ...
+   2017-11-21T12:32:37.20+0530 [STG/0] OUT installing: pycparser-2.18-py36hf9f622e_1 ...
+   2017-11-21T12:32:37.28+0530 [STG/0] OUT installing: pysocks-1.6.7-py36hd97a5b1_1 ...
+   2017-11-21T12:32:37.35+0530 [STG/0] OUT installing: ruamel_yaml-0.11.14-py36ha2fb22d_2 ...
+   2017-11-21T12:32:37.43+0530 [STG/0] OUT installing: six-1.10.0-py36hcac75e4_1 ...
+   2017-11-21T12:32:37.49+0530 [STG/0] OUT installing: cffi-1.10.0-py36had8d393_1 ...
+   2017-11-21T12:32:37.58+0530 [STG/0] OUT installing: setuptools-36.5.0-py36he42e2e1_0 ...
+   2017-11-21T12:32:37.74+0530 [STG/0] OUT installing: cryptography-2.0.3-py36ha225213_1 ...
+   2017-11-21T12:32:37.91+0530 [STG/0] OUT installing: wheel-0.29.0-py36he7f4e38_1 ...
+   2017-11-21T12:32:37.99+0530 [STG/0] OUT installing: pip-9.0.1-py36h8ec8b28_3 ...
+   2017-11-21T12:32:38.35+0530 [STG/0] OUT installing: pyopenssl-17.2.0-py36h5cc804b_0 ...
+   2017-11-21T12:32:38.42+0530 [STG/0] OUT installing: urllib3-1.22-py36hbe7ace6_0 ...
+   2017-11-21T12:32:38.51+0530 [STG/0] OUT installing: requests-2.18.4-py36he2e5f8d_1 ...
+   2017-11-21T12:32:38.58+0530 [STG/0] OUT installing: conda-4.3.30-py36h5d9f9f4_0 ...
+   2017-11-21T12:32:38.80+0530 [STG/0] OUT installation finished.
+   2017-11-21T12:32:38.80+0530 [STG/0] OUT -----> Installing Dependencies...
+   2017-11-21T12:32:46.64+0530 [STG/0] OUT # All requested packages already installed.
+   2017-11-21T12:32:46.64+0530 [STG/0] OUT # packages in environment at /tmp/staged/app/.conda:
+   2017-11-21T12:32:46.64+0530 [STG/0] OUT #
+   2017-11-21T12:32:46.64+0530 [STG/0] OUT conda                     4.3.30           py36h5d9f9f4_0  
+   2017-11-21T12:32:50.00+0530 [STG/0] OUT Package plan for installation in environment /tmp/staged/app/.conda:
+   2017-11-21T12:32:50.00+0530 [STG/0] OUT The following packages will be UPDATED:
+   2017-11-21T12:32:50.00+0530 [STG/0] OUT     pip: 9.0.1-py36h8ec8b28_3 --> 9.0.1-py36h6c6f9ce_4
+   2017-11-21T12:32:50.09+0530 [STG/0] OUT -----> Installing pip packages from requirements.txt...
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT Will remove the following tarballs:
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2     210 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pip-9.0.1-py36h6c6f9ce_4.tar.bz2             2.2 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT sqlite-3.20.1-h6d8b0f3_1.tar.bz2             1.5 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1.tar.bz2             20 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT requests-2.18.4-py36he2e5f8d_1.tar.bz2        92 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT cryptography-2.0.3-py36ha225213_1.tar.bz2     591 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT yaml-0.1.7-h96e3832_1.tar.bz2                 84 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT urllib3-1.22-py36hbe7ace6_0.tar.bz2          155 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT conda-4.3.30-py36h5d9f9f4_0.tar.bz2          511 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT cffi-1.10.0-py36had8d393_1.tar.bz2           206 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT setuptools-36.5.0-py36he42e2e1_0.tar.bz2     512 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT chardet-3.0.4-py36h0f667ec_1.tar.bz2         190 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2        2.5 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT ncurses-6.0-h06874d7_1.tar.bz2               907 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pycparser-2.18-py36hf9f622e_1.tar.bz2        169 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT libffi-3.2.1-h4deb6c0_3.tar.bz2               43 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT xz-5.2.3-h2bcbf08_1.tar.bz2                  356 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2           6.1 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pysocks-1.6.7-py36hd97a5b1_1.tar.bz2          22 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT wheel-0.29.0-py36he7f4e38_1.tar.bz2           88 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT libedit-3.1-heed3624_0.tar.bz2               171 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT python-3.6.3-hc9025b9_1.tar.bz2             27.0 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT tk-8.6.7-h5979e9b_1.tar.bz2                  3.2 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT zlib-1.2.11-hfbfcf68_1.tar.bz2               101 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1.tar.bz2             2 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pycosat-0.6.2-py36h1a0ea17_1.tar.bz2         104 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT idna-2.6-py36h82fb2a8_1.tar.bz2              122 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2     205 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2       78 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3.tar.bz2             1.7 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2     149 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2     263 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT readline-7.0-hac23ff0_3.tar.bz2              387 KB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT openssl-1.0.2l-h077ae2c_5.tar.bz2            3.4 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT Total:                                      53.1 MB
+   2017-11-21T12:32:59.83+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pip-9.0.1-py36h6c6f9ce_4.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed sqlite-3.20.1-h6d8b0f3_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed six-1.10.0-py36hcac75e4_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed requests-2.18.4-py36he2e5f8d_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed cryptography-2.0.3-py36ha225213_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed yaml-0.1.7-h96e3832_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed urllib3-1.22-py36hbe7ace6_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed conda-4.3.30-py36h5d9f9f4_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed cffi-1.10.0-py36had8d393_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed setuptools-36.5.0-py36he42e2e1_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed chardet-3.0.4-py36h0f667ec_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed ncurses-6.0-h06874d7_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pycparser-2.18-py36hf9f622e_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed libffi-3.2.1-h4deb6c0_3.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed xz-5.2.3-h2bcbf08_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pysocks-1.6.7-py36hd97a5b1_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed wheel-0.29.0-py36he7f4e38_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed libedit-3.1-heed3624_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed python-3.6.3-hc9025b9_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed tk-8.6.7-h5979e9b_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed zlib-1.2.11-hfbfcf68_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed conda-env-2.6.0-h36134e3_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pycosat-0.6.2-py36h1a0ea17_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed idna-2.6-py36h82fb2a8_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed pip-9.0.1-py36h8ec8b28_3.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed readline-7.0-hac23ff0_3.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Removed openssl-1.0.2l-h077ae2c_5.tar.bz2
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Will remove the following packages:
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1                     66 KB
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1                     4 KB
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3                     6.4 MB
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Total:                                       6.4 MB
+   2017-11-21T12:32:59.90+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:32:59.96+0530 [STG/0] OUT removing six-1.10.0-py36hcac75e4_1
+   2017-11-21T12:32:59.96+0530 [STG/0] OUT removing conda-env-2.6.0-h36134e3_1
+   2017-11-21T12:32:59.96+0530 [STG/0] OUT removing pip-9.0.1-py36h8ec8b28_3
+   2017-11-21T12:32:59.99+0530 [STG/0] OUT -----> Fixing paths...
+   2017-11-21T12:33:00.36+0530 [STG/0] OUT -----> Finished compile step
+   2017-11-21T12:33:19.15+0530 [STG/25] OUT -----> Uploading droplet (137M)
+   2017-11-21T12:33:32.46+0530 [DEA/25] OUT Starting app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   [31m2017-11-21T12:33:41.76+0530 [App/0] ERR      * Running on http://0.0.0.0:63829/ (Press CTRL+C to quit)[0m
+   [31m2017-11-21T12:34:09.89+0530 [App/0] ERR 10.72.1.14 - - [21/Nov/2017 07:04:09] "GET / HTTP/1.1" 200 -[0m
+   2017-11-21T12:34:09.89+0530 [RTR/4] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:09.892+0000] "GET / HTTP/1.1" 200 0 826 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:5262" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"d1e43421-e975-4d73-63de-dcf2ae0deb59" response_time:0.003332718 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"dba75254d49b15cd" x_b3_spanid:"dba75254d49b15cd" x_b3_parentspanid:"-"
+   2017-11-21T12:34:09.89+0530 [RTR/4] OUT 
+   [31m2017-11-21T12:34:10.19+0530 [App/0] ERR 10.72.1.14 - - [21/Nov/2017 07:04:10] "GET /style.css HTTP/1.1" 200 -[0m
+   2017-11-21T12:34:10.20+0530 [RTR/4] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:10.198+0000] "GET /style.css HTTP/1.1" 200 0 413 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:5262" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"1c548538-51a0-400f-75be-e4ade001b3c4" response_time:0.002480107 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"8a9c4a1ce751c86d" x_b3_spanid:"8a9c4a1ce751c86d" x_b3_parentspanid:"-"
+   2017-11-21T12:34:10.20+0530 [RTR/4] OUT 
+   [31m2017-11-21T12:34:10.22+0530 [App/0] ERR 10.72.11.10 - - [21/Nov/2017 07:04:10] "GET /predix.png HTTP/1.1" 200 -[0m
+   2017-11-21T12:34:10.22+0530 [RTR/0] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:10.217+0000] "GET /predix.png HTTP/1.1" 200 0 4211 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:27959" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"d7f7db25-c146-4355-4f2e-8cd5060b019a" response_time:0.003049901 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"422a8dab64d12b97" x_b3_spanid:"422a8dab64d12b97" x_b3_parentspanid:"-"
+   2017-11-21T12:34:10.22+0530 [RTR/0] OUT 
+   [31m2017-11-21T12:34:10.49+0530 [App/0] ERR 10.72.1.14 - - [21/Nov/2017 07:04:10] "GET /caffe.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:34:10.49+0530 [RTR/4] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:10.497+0000] "GET /caffe.jpg HTTP/1.1" 200 0 3569 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:5262" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"17eb777b-3ca2-4168-6216-dd32387f9967" response_time:0.002458175 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"6b7dedbf58a835fe" x_b3_spanid:"6b7dedbf58a835fe" x_b3_parentspanid:"-"
+   2017-11-21T12:34:10.49+0530 [RTR/4] OUT 
+   [31m2017-11-21T12:34:10.86+0530 [App/0] ERR 10.72.1.14 - - [21/Nov/2017 07:04:10] "GET /favicon.ico HTTP/1.1" 404 -[0m
+   2017-11-21T12:34:10.86+0530 [RTR/4] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:10.855+0000] "GET /favicon.ico HTTP/1.1" 404 0 233 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:5262" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"5ef83cc2-5032-41d9-55fc-4837e80b611b" response_time:0.010938479 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"6f3b9547fc4c62c8" x_b3_spanid:"6f3b9547fc4c62c8" x_b3_parentspanid:"-"
+   2017-11-21T12:34:10.86+0530 [RTR/4] OUT 
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR [2017-11-21 07:04:14,849] ERROR in app: Exception on /imgurl [GET][0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR Traceback (most recent call last):[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/app.py", line 1982, in wsgi_app[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     response = self.full_dispatch_request()[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/app.py", line 1614, in full_dispatch_request[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     rv = self.handle_user_exception(e)[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/app.py", line 1517, in handle_user_exception[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     reraise(exc_type, exc_value, tb)[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/_compat.py", line 33, in reraise[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     raise value[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/app.py", line 1612, in full_dispatch_request[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     rv = self.dispatch_request()[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "/home/vcap/app/.conda/lib/python3.6/site-packages/flask/app.py", line 1598, in dispatch_request[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     return self.view_functions[rule.endpoint](**req.view_args)[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR   File "run.py", line 49, in imgurl[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR     result = run_model_markup(image_np)[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR NameError: name 'run_model_markup' is not defined[0m
+   [31m2017-11-21T12:34:14.85+0530 [App/0] ERR 10.72.1.14 - - [21/Nov/2017 07:04:14] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 500 -[0m
+   2017-11-21T12:34:14.85+0530 [RTR/4] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:04:14.575+0000] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 500 0 291 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.11.218:5262" "10.72.2.163:63829" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"9aabd20a-b32a-47f7-4278-2c33f4df70cb" response_time:0.276269499 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"39cb777a138baf5e" x_b3_spanid:"39cb777a138baf5e" x_b3_parentspanid:"-"
+   2017-11-21T12:34:14.85+0530 [RTR/4] OUT 
+   2017-11-21T12:35:58.81+0530 [API/6] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"name"=>"webinar-demo-dattaraj", "command"=>"PRIVATE DATA HIDDEN", "memory"=>4096, "disk_quota"=>2048, "buildpack"=>"https://github.com/ihuston/python-conda-buildpack.git", "environment_json"=>"PRIVATE DATA HIDDEN"})
+   2017-11-21T12:36:10.64+0530 [API/9] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STOPPED"})
+   2017-11-21T12:36:10.68+0530 [App/0] OUT     
+   2017-11-21T12:36:11.69+0530 [DEA/25] OUT Stopping app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:36:11.69+0530 [DEA/25] OUT Stopped app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:36:14.18+0530 [DEA/28] OUT Got staging request for app with id 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:36:16.91+0530 [API/7] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STARTED"})
+   2017-11-21T12:36:17.19+0530 [STG/28] OUT -----> Downloaded app package (22M)
+   2017-11-21T12:36:17.65+0530 [STG/28] OUT -----> Downloaded app buildpack cache (52M)
+   [31m2017-11-21T12:36:17.80+0530 [STG/0] ERR     Cloning into '/tmp/buildpacks/python-conda-buildpack'...[0m
+   2017-11-21T12:36:18.22+0530 [STG/0] OUT     -----> Starting compile step...
+   2017-11-21T12:36:18.23+0530 [STG/0] OUT PREFIX=/tmp/staged/app/.conda
+   2017-11-21T12:36:18.67+0530 [STG/0] OUT installing: python-3.6.3-hc9025b9_1 ...
+   [31m2017-11-21T12:36:22.54+0530 [STG/0] ERR Python 3.6.3 :: Anaconda, Inc.[0m
+   2017-11-21T12:36:22.54+0530 [STG/0] OUT installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+   2017-11-21T12:36:22.63+0530 [STG/0] OUT installing: conda-env-2.6.0-h36134e3_1 ...
+   2017-11-21T12:36:22.70+0530 [STG/0] OUT installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+   2017-11-21T12:36:23.57+0530 [STG/0] OUT installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+   2017-11-21T12:36:23.95+0530 [STG/0] OUT installing: libffi-3.2.1-h4deb6c0_3 ...
+   2017-11-21T12:36:24.01+0530 [STG/0] OUT installing: ncurses-6.0-h06874d7_1 ...
+   2017-11-21T12:36:24.73+0530 [STG/0] OUT installing: openssl-1.0.2l-h077ae2c_5 ...
+   2017-11-21T12:36:25.55+0530 [STG/0] OUT installing: tk-8.6.7-h5979e9b_1 ...
+   2017-11-21T12:36:26.06+0530 [STG/0] OUT installing: xz-5.2.3-h2bcbf08_1 ...
+   2017-11-21T12:36:26.18+0530 [STG/0] OUT installing: yaml-0.1.7-h96e3832_1 ...
+   2017-11-21T12:36:26.25+0530 [STG/0] OUT installing: zlib-1.2.11-hfbfcf68_1 ...
+   2017-11-21T12:36:26.32+0530 [STG/0] OUT installing: libedit-3.1-heed3624_0 ...
+   2017-11-21T12:36:26.41+0530 [STG/0] OUT installing: readline-7.0-hac23ff0_3 ...
+   2017-11-21T12:36:26.54+0530 [STG/0] OUT installing: sqlite-3.20.1-h6d8b0f3_1 ...
+   2017-11-21T12:36:26.78+0530 [STG/0] OUT installing: asn1crypto-0.22.0-py36h265ca7c_1 ...
+   2017-11-21T12:36:26.86+0530 [STG/0] OUT installing: certifi-2017.7.27.1-py36h8b7b77e_0 ...
+   2017-11-21T12:36:26.95+0530 [STG/0] OUT installing: chardet-3.0.4-py36h0f667ec_1 ...
+   2017-11-21T12:36:27.04+0530 [STG/0] OUT installing: idna-2.6-py36h82fb2a8_1 ...
+   2017-11-21T12:36:27.12+0530 [STG/0] OUT installing: pycosat-0.6.2-py36h1a0ea17_1 ...
+   2017-11-21T12:36:27.19+0530 [STG/0] OUT installing: pycparser-2.18-py36hf9f622e_1 ...
+   2017-11-21T12:36:27.28+0530 [STG/0] OUT installing: pysocks-1.6.7-py36hd97a5b1_1 ...
+   2017-11-21T12:36:27.34+0530 [STG/0] OUT installing: ruamel_yaml-0.11.14-py36ha2fb22d_2 ...
+   2017-11-21T12:36:27.43+0530 [STG/0] OUT installing: six-1.10.0-py36hcac75e4_1 ...
+   2017-11-21T12:36:27.50+0530 [STG/0] OUT installing: cffi-1.10.0-py36had8d393_1 ...
+   2017-11-21T12:36:27.59+0530 [STG/0] OUT installing: setuptools-36.5.0-py36he42e2e1_0 ...
+   2017-11-21T12:36:27.74+0530 [STG/0] OUT installing: cryptography-2.0.3-py36ha225213_1 ...
+   2017-11-21T12:36:27.90+0530 [STG/0] OUT installing: wheel-0.29.0-py36he7f4e38_1 ...
+   2017-11-21T12:36:27.98+0530 [STG/0] OUT installing: pip-9.0.1-py36h8ec8b28_3 ...
+   2017-11-21T12:36:28.33+0530 [STG/0] OUT installing: pyopenssl-17.2.0-py36h5cc804b_0 ...
+   2017-11-21T12:36:28.40+0530 [STG/0] OUT installing: urllib3-1.22-py36hbe7ace6_0 ...
+   2017-11-21T12:36:28.50+0530 [STG/0] OUT installing: requests-2.18.4-py36he2e5f8d_1 ...
+   2017-11-21T12:36:28.57+0530 [STG/0] OUT installing: conda-4.3.30-py36h5d9f9f4_0 ...
+   2017-11-21T12:36:28.80+0530 [STG/0] OUT installation finished.
+   2017-11-21T12:36:28.80+0530 [STG/0] OUT -----> Installing Dependencies...
+   2017-11-21T12:36:35.82+0530 [STG/0] OUT # All requested packages already installed.
+   2017-11-21T12:36:35.82+0530 [STG/0] OUT # packages in environment at /tmp/staged/app/.conda:
+   2017-11-21T12:36:35.82+0530 [STG/0] OUT #
+   2017-11-21T12:36:35.82+0530 [STG/0] OUT conda                     4.3.30           py36h5d9f9f4_0  
+   2017-11-21T12:36:40.64+0530 [STG/0] OUT Package plan for installation in environment /tmp/staged/app/.conda:
+   2017-11-21T12:36:40.64+0530 [STG/0] OUT The following packages will be UPDATED:
+   2017-11-21T12:36:40.64+0530 [STG/0] OUT     pip: 9.0.1-py36h8ec8b28_3 --> 9.0.1-py36h6c6f9ce_4
+   2017-11-21T12:36:40.74+0530 [STG/0] OUT -----> Installing pip packages from requirements.txt...
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT Will remove the following tarballs:
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT libffi-3.2.1-h4deb6c0_3.tar.bz2               43 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2     149 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT readline-7.0-hac23ff0_3.tar.bz2              387 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pip-9.0.1-py36h6c6f9ce_4.tar.bz2             2.2 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT requests-2.18.4-py36he2e5f8d_1.tar.bz2        92 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1.tar.bz2             2 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pycosat-0.6.2-py36h1a0ea17_1.tar.bz2         104 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT tk-8.6.7-h5979e9b_1.tar.bz2                  3.2 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT ncurses-6.0-h06874d7_1.tar.bz2               907 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3.tar.bz2             1.7 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT conda-4.3.30-py36h5d9f9f4_0.tar.bz2          511 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT setuptools-36.5.0-py36he42e2e1_0.tar.bz2     512 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pysocks-1.6.7-py36hd97a5b1_1.tar.bz2          22 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2       78 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT xz-5.2.3-h2bcbf08_1.tar.bz2                  356 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT libedit-3.1-heed3624_0.tar.bz2               171 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT python-3.6.3-hc9025b9_1.tar.bz2             27.0 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT wheel-0.29.0-py36he7f4e38_1.tar.bz2           88 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2           6.1 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1.tar.bz2             20 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2     263 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2        2.5 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT cryptography-2.0.3-py36ha225213_1.tar.bz2     591 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT pycparser-2.18-py36hf9f622e_1.tar.bz2        169 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT yaml-0.1.7-h96e3832_1.tar.bz2                 84 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT openssl-1.0.2l-h077ae2c_5.tar.bz2            3.4 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT urllib3-1.22-py36hbe7ace6_0.tar.bz2          155 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT sqlite-3.20.1-h6d8b0f3_1.tar.bz2             1.5 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT cffi-1.10.0-py36had8d393_1.tar.bz2           206 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT zlib-1.2.11-hfbfcf68_1.tar.bz2               101 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2     210 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT chardet-3.0.4-py36h0f667ec_1.tar.bz2         190 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT idna-2.6-py36h82fb2a8_1.tar.bz2              122 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2     205 KB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT Total:                                      53.1 MB
+   2017-11-21T12:36:52.62+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed libffi-3.2.1-h4deb6c0_3.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed readline-7.0-hac23ff0_3.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pip-9.0.1-py36h6c6f9ce_4.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed requests-2.18.4-py36he2e5f8d_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed conda-env-2.6.0-h36134e3_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pycosat-0.6.2-py36h1a0ea17_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed tk-8.6.7-h5979e9b_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed ncurses-6.0-h06874d7_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pip-9.0.1-py36h8ec8b28_3.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed conda-4.3.30-py36h5d9f9f4_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed setuptools-36.5.0-py36he42e2e1_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pysocks-1.6.7-py36hd97a5b1_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed xz-5.2.3-h2bcbf08_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed libedit-3.1-heed3624_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed python-3.6.3-hc9025b9_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed wheel-0.29.0-py36he7f4e38_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed six-1.10.0-py36hcac75e4_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed cryptography-2.0.3-py36ha225213_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed pycparser-2.18-py36hf9f622e_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed yaml-0.1.7-h96e3832_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed openssl-1.0.2l-h077ae2c_5.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed urllib3-1.22-py36hbe7ace6_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed sqlite-3.20.1-h6d8b0f3_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed cffi-1.10.0-py36had8d393_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed zlib-1.2.11-hfbfcf68_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed chardet-3.0.4-py36h0f667ec_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed idna-2.6-py36h82fb2a8_1.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Removed certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Will remove the following packages:
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1                     4 KB
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3                     6.4 MB
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1                     66 KB
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Total:                                       6.4 MB
+   2017-11-21T12:36:52.68+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:36:52.75+0530 [STG/0] OUT removing conda-env-2.6.0-h36134e3_1
+   2017-11-21T12:36:52.75+0530 [STG/0] OUT removing pip-9.0.1-py36h8ec8b28_3
+   2017-11-21T12:36:52.75+0530 [STG/0] OUT removing six-1.10.0-py36hcac75e4_1
+   2017-11-21T12:36:52.78+0530 [STG/0] OUT -----> Fixing paths...
+   2017-11-21T12:36:53.15+0530 [STG/0] OUT -----> Finished compile step
+   2017-11-21T12:37:11.52+0530 [STG/28] OUT -----> Uploading droplet (137M)
+   2017-11-21T12:37:28.08+0530 [DEA/28] OUT Starting app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   [31m2017-11-21T12:37:38.32+0530 [App/0] ERR      * Running on http://0.0.0.0:63567/ (Press CTRL+C to quit)[0m
+   [31m2017-11-21T12:37:52.04+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:07:52] "GET / HTTP/1.1" 200 -[0m
+   2017-11-21T12:37:52.05+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:07:52.049+0000] "GET / HTTP/1.1" 200 0 826 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"2de20e76-5305-45d8-601c-1add4b5cdc13" response_time:0.003799498 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"9182796cc8442049" x_b3_spanid:"9182796cc8442049" x_b3_parentspanid:"-"
+   2017-11-21T12:37:52.05+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:37:54.52+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:07:54] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:37:54.52+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:07:54.277+0000] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 0 108 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"43f733e6-d0e8-42a6-466a-693efe22d51e" response_time:0.250795691 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"aec58216fbabcc96" x_b3_spanid:"aec58216fbabcc96" x_b3_parentspanid:"-"
+   2017-11-21T12:37:54.52+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:37:54.84+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:07:54] "GET /result.jpg?0.018405896191813875 HTTP/1.1" 200 -[0m
+   2017-11-21T12:37:54.85+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:07:54.851+0000] "GET /result.jpg?0.018405896191813875 HTTP/1.1" 200 0 15940 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"0cc2d7ee-ff74-41e6-4ba7-301d2494d2ea" response_time:0.002597954 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"5deb4f50b17d3644" x_b3_spanid:"5deb4f50b17d3644" x_b3_parentspanid:"-"
+   2017-11-21T12:37:54.85+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:38:15.02+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:08:15] "GET /imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:38:15.02+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:08:13.465+0000] "GET /imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg HTTP/1.1" 200 0 106 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"6674b92d-72b2-4e0c-6a8c-555a8065b966" response_time:1.563302465 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"8164b87d8bc116d2" x_b3_spanid:"8164b87d8bc116d2" x_b3_parentspanid:"-"
+   2017-11-21T12:38:15.02+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:38:15.37+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:08:15] "GET /result.jpg?0.3828689295739467 HTTP/1.1" 200 -[0m
+   2017-11-21T12:38:15.37+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:08:15.372+0000] "GET /result.jpg?0.3828689295739467 HTTP/1.1" 200 0 122258 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"ff66dc9e-0c06-451f-4880-591030603412" response_time:0.003310993 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"5f1abde0236713d9" x_b3_spanid:"5f1abde0236713d9" x_b3_parentspanid:"-"
+   2017-11-21T12:38:15.37+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:38:28.49+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:08:28] "GET /imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:38:28.49+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:08:28.341+0000] "GET /imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg HTTP/1.1" 200 0 106 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"bd517295-d2fa-42bb-4137-2a12d6aa9355" response_time:0.156616701 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"6f0778d10d906d51" x_b3_spanid:"6f0778d10d906d51" x_b3_parentspanid:"-"
+   2017-11-21T12:38:28.49+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:38:28.81+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:08:28] "GET /result.jpg?0.6513428770846013 HTTP/1.1" 200 -[0m
+   2017-11-21T12:38:28.82+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:08:28.821+0000] "GET /result.jpg?0.6513428770846013 HTTP/1.1" 200 0 122258 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/imgurl?imgurl=http%3A%2F%2Fcdn.odishatv.in%2Fwp-content%2Fuploads%2F2016%2F06%2Flevel-crossing.jpg" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"78413f26-da80-48f9-4e9a-b8c4b1c87d18" response_time:0.003312967 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"63ffb11373c42b49" x_b3_spanid:"63ffb11373c42b49" x_b3_parentspanid:"-"
+   2017-11-21T12:38:28.82+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:39:17.55+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:09:17] "GET / HTTP/1.1" 304 -[0m
+   2017-11-21T12:39:17.56+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:09:17.559+0000] "GET / HTTP/1.1" 304 0 0 "-" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"a7aae29a-4f77-40e0-56dd-afd76e4a4f4e" response_time:0.002624254 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"05cffd9d22ac9a8c" x_b3_spanid:"05cffd9d22ac9a8c" x_b3_parentspanid:"-"
+   2017-11-21T12:39:17.56+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:39:19.04+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:09:19] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:39:19.05+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:09:18.848+0000] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 0 107 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"3327688c-aeff-4dac-7043-5ac521a84301" response_time:0.202236241 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"ea9f44741908006d" x_b3_spanid:"ea9f44741908006d" x_b3_parentspanid:"-"
+   2017-11-21T12:39:19.05+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:39:19.38+0530 [App/0] ERR 10.72.11.13 - - [21/Nov/2017 07:09:19] "GET /result.jpg?0.25474103785884894 HTTP/1.1" 200 -[0m
+   2017-11-21T12:39:19.39+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:09:19.390+0000] "GET /result.jpg?0.25474103785884894 HTTP/1.1" 200 0 15940 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.33:31184" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"ea289541-0810-4fe2-769a-0461e36591c2" response_time:0.002651064 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"09a071af11572939" x_b3_spanid:"09a071af11572939" x_b3_parentspanid:"-"
+   2017-11-21T12:39:19.39+0530 [RTR/3] OUT 
+   2017-11-21T12:40:58.90+0530 [API/2] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"name"=>"webinar-demo-dattaraj", "command"=>"PRIVATE DATA HIDDEN", "memory"=>4096, "disk_quota"=>2048, "buildpack"=>"https://github.com/ihuston/python-conda-buildpack.git", "environment_json"=>"PRIVATE DATA HIDDEN"})
+   [31m2017-11-21T12:41:08.56+0530 [App/0] ERR 10.72.1.13 - - [21/Nov/2017 07:11:08] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 -[0m
+   2017-11-21T12:41:08.57+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:11:08.386+0000] "GET /imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg HTTP/1.1" 200 0 105 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.77:59072" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"c8e270c5-0a1b-44de-5c37-dc592672e666" response_time:0.186240099 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"d148791d97c24e6e" x_b3_spanid:"d148791d97c24e6e" x_b3_parentspanid:"-"
+   2017-11-21T12:41:08.57+0530 [RTR/3] OUT 
+   [31m2017-11-21T12:41:08.91+0530 [App/0] ERR 10.72.1.13 - - [21/Nov/2017 07:11:08] "GET /result.jpg?0.460233188447694 HTTP/1.1" 200 -[0m
+   2017-11-21T12:41:08.92+0530 [RTR/3] OUT webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io - [2017-11-21T07:11:08.916+0000] "GET /result.jpg?0.460233188447694 HTTP/1.1" 200 0 15940 "https://webinar-demo-dattaraj.run.aws-usw02-pr.ice.predix.io/imgurl?imgurl=http%3A%2F%2Fs.hswstatic.com%2Fgif%2Fairplanes-work-1.jpg" "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36" "10.72.1.77:59072" "10.72.4.184:63567" x_forwarded_for:"-" x_forwarded_proto:"http" vcap_request_id:"247900bb-3bb9-448c-55e9-c4a368503383" response_time:0.003748647 app_id:"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7" app_index:"-" x_b3_traceid:"1e43a74616939736" x_b3_spanid:"1e43a74616939736" x_b3_parentspanid:"-"
+   2017-11-21T12:41:08.92+0530 [RTR/3] OUT 
+   2017-11-21T12:41:10.92+0530 [API/5] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STOPPED"})
+   2017-11-21T12:41:10.98+0530 [App/0] OUT     
+   2017-11-21T12:41:11.99+0530 [DEA/28] OUT Stopping app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:41:11.99+0530 [DEA/28] OUT Stopped app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:41:14.95+0530 [DEA/245] OUT Got staging request for app with id 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:41:17.31+0530 [API/0] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STARTED"})
+   2017-11-21T12:41:17.60+0530 [STG/245] OUT -----> Downloaded app package (22M)
+   2017-11-21T12:41:18.05+0530 [STG/245] OUT -----> Downloaded app buildpack cache (52M)
+   [31m2017-11-21T12:41:18.18+0530 [STG/0] ERR     Cloning into '/tmp/buildpacks/python-conda-buildpack'...[0m
+   2017-11-21T12:41:18.62+0530 [STG/0] OUT     -----> Starting compile step...
+   2017-11-21T12:41:18.62+0530 [STG/0] OUT -----> Preparing Python Environment...
+   2017-11-21T12:41:18.63+0530 [STG/0] OUT PREFIX=/tmp/staged/app/.conda
+   2017-11-21T12:41:19.02+0530 [STG/0] OUT installing: python-3.6.3-hc9025b9_1 ...
+   [31m2017-11-21T12:41:22.38+0530 [STG/0] ERR Python 3.6.3 :: Anaconda, Inc.[0m
+   2017-11-21T12:41:22.38+0530 [STG/0] OUT installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+   2017-11-21T12:41:22.47+0530 [STG/0] OUT installing: conda-env-2.6.0-h36134e3_1 ...
+   2017-11-21T12:41:22.53+0530 [STG/0] OUT installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+   2017-11-21T12:41:23.36+0530 [STG/0] OUT installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+   2017-11-21T12:41:23.74+0530 [STG/0] OUT installing: libffi-3.2.1-h4deb6c0_3 ...
+   2017-11-21T12:41:23.80+0530 [STG/0] OUT installing: ncurses-6.0-h06874d7_1 ...
+   2017-11-21T12:41:24.54+0530 [STG/0] OUT installing: openssl-1.0.2l-h077ae2c_5 ...
+   2017-11-21T12:41:25.35+0530 [STG/0] OUT installing: tk-8.6.7-h5979e9b_1 ...
+   2017-11-21T12:41:25.88+0530 [STG/0] OUT installing: xz-5.2.3-h2bcbf08_1 ...
+   2017-11-21T12:41:26.00+0530 [STG/0] OUT installing: yaml-0.1.7-h96e3832_1 ...
+   2017-11-21T12:41:26.07+0530 [STG/0] OUT installing: zlib-1.2.11-hfbfcf68_1 ...
+   2017-11-21T12:41:26.14+0530 [STG/0] OUT installing: libedit-3.1-heed3624_0 ...
+   2017-11-21T12:41:26.23+0530 [STG/0] OUT installing: readline-7.0-hac23ff0_3 ...
+   2017-11-21T12:41:26.36+0530 [STG/0] OUT installing: sqlite-3.20.1-h6d8b0f3_1 ...
+   2017-11-21T12:41:26.61+0530 [STG/0] OUT installing: asn1crypto-0.22.0-py36h265ca7c_1 ...
+   2017-11-21T12:41:26.70+0530 [STG/0] OUT installing: certifi-2017.7.27.1-py36h8b7b77e_0 ...
+   2017-11-21T12:41:26.78+0530 [STG/0] OUT installing: chardet-3.0.4-py36h0f667ec_1 ...
+   2017-11-21T12:41:26.88+0530 [STG/0] OUT installing: idna-2.6-py36h82fb2a8_1 ...
+   2017-11-21T12:41:26.95+0530 [STG/0] OUT installing: pycosat-0.6.2-py36h1a0ea17_1 ...
+   2017-11-21T12:41:27.02+0530 [STG/0] OUT installing: pycparser-2.18-py36hf9f622e_1 ...
+   2017-11-21T12:41:27.11+0530 [STG/0] OUT installing: pysocks-1.6.7-py36hd97a5b1_1 ...
+   2017-11-21T12:41:27.17+0530 [STG/0] OUT installing: ruamel_yaml-0.11.14-py36ha2fb22d_2 ...
+   2017-11-21T12:41:27.26+0530 [STG/0] OUT installing: six-1.10.0-py36hcac75e4_1 ...
+   2017-11-21T12:41:27.32+0530 [STG/0] OUT installing: cffi-1.10.0-py36had8d393_1 ...
+   2017-11-21T12:41:27.41+0530 [STG/0] OUT installing: setuptools-36.5.0-py36he42e2e1_0 ...
+   2017-11-21T12:41:27.56+0530 [STG/0] OUT installing: cryptography-2.0.3-py36ha225213_1 ...
+   2017-11-21T12:41:27.73+0530 [STG/0] OUT installing: wheel-0.29.0-py36he7f4e38_1 ...
+   2017-11-21T12:41:27.80+0530 [STG/0] OUT installing: pip-9.0.1-py36h8ec8b28_3 ...
+   2017-11-21T12:41:28.15+0530 [STG/0] OUT installing: pyopenssl-17.2.0-py36h5cc804b_0 ...
+   2017-11-21T12:41:28.22+0530 [STG/0] OUT installing: urllib3-1.22-py36hbe7ace6_0 ...
+   2017-11-21T12:41:28.31+0530 [STG/0] OUT installing: requests-2.18.4-py36he2e5f8d_1 ...
+   2017-11-21T12:41:28.38+0530 [STG/0] OUT installing: conda-4.3.30-py36h5d9f9f4_0 ...
+   2017-11-21T12:41:28.60+0530 [STG/0] OUT installation finished.
+   2017-11-21T12:41:28.60+0530 [STG/0] OUT -----> Installing Dependencies...
+   2017-11-21T12:41:35.19+0530 [STG/0] OUT # All requested packages already installed.
+   2017-11-21T12:41:35.19+0530 [STG/0] OUT # packages in environment at /tmp/staged/app/.conda:
+   2017-11-21T12:41:35.19+0530 [STG/0] OUT #
+   2017-11-21T12:41:35.19+0530 [STG/0] OUT conda                     4.3.30           py36h5d9f9f4_0  
+   2017-11-21T12:41:38.41+0530 [STG/0] OUT Package plan for installation in environment /tmp/staged/app/.conda:
+   2017-11-21T12:41:38.41+0530 [STG/0] OUT The following packages will be UPDATED:
+   2017-11-21T12:41:38.41+0530 [STG/0] OUT     pip: 9.0.1-py36h8ec8b28_3 --> 9.0.1-py36h6c6f9ce_4
+   2017-11-21T12:41:38.50+0530 [STG/0] OUT -----> Installing pip packages from requirements.txt...
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT Will remove the following tarballs:
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT zlib-1.2.11-hfbfcf68_1.tar.bz2               101 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT openssl-1.0.2l-h077ae2c_5.tar.bz2            3.4 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT urllib3-1.22-py36hbe7ace6_0.tar.bz2          155 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT yaml-0.1.7-h96e3832_1.tar.bz2                 84 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT conda-4.3.30-py36h5d9f9f4_0.tar.bz2          511 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3.tar.bz2             1.7 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2        2.5 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT idna-2.6-py36h82fb2a8_1.tar.bz2              122 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2     263 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT setuptools-36.5.0-py36he42e2e1_0.tar.bz2     512 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT readline-7.0-hac23ff0_3.tar.bz2              387 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1.tar.bz2             20 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT cryptography-2.0.3-py36ha225213_1.tar.bz2     591 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pycparser-2.18-py36hf9f622e_1.tar.bz2        169 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1.tar.bz2             2 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2     149 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT wheel-0.29.0-py36he7f4e38_1.tar.bz2           88 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2       78 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT python-3.6.3-hc9025b9_1.tar.bz2             27.0 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2     210 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT sqlite-3.20.1-h6d8b0f3_1.tar.bz2             1.5 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT libffi-3.2.1-h4deb6c0_3.tar.bz2               43 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pysocks-1.6.7-py36hd97a5b1_1.tar.bz2          22 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT xz-5.2.3-h2bcbf08_1.tar.bz2                  356 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT ncurses-6.0-h06874d7_1.tar.bz2               907 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT requests-2.18.4-py36he2e5f8d_1.tar.bz2        92 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pip-9.0.1-py36h6c6f9ce_4.tar.bz2             2.2 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2     205 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT cffi-1.10.0-py36had8d393_1.tar.bz2           206 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT pycosat-0.6.2-py36h1a0ea17_1.tar.bz2         104 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT chardet-3.0.4-py36h0f667ec_1.tar.bz2         190 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT tk-8.6.7-h5979e9b_1.tar.bz2                  3.2 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2           6.1 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT libedit-3.1-heed3624_0.tar.bz2               171 KB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT Total:                                      53.1 MB
+   2017-11-21T12:41:48.51+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed zlib-1.2.11-hfbfcf68_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed openssl-1.0.2l-h077ae2c_5.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed urllib3-1.22-py36hbe7ace6_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed yaml-0.1.7-h96e3832_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed conda-4.3.30-py36h5d9f9f4_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pip-9.0.1-py36h8ec8b28_3.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed idna-2.6-py36h82fb2a8_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed setuptools-36.5.0-py36he42e2e1_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed readline-7.0-hac23ff0_3.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed six-1.10.0-py36hcac75e4_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed cryptography-2.0.3-py36ha225213_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pycparser-2.18-py36hf9f622e_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed conda-env-2.6.0-h36134e3_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed wheel-0.29.0-py36he7f4e38_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed python-3.6.3-hc9025b9_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed sqlite-3.20.1-h6d8b0f3_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed libffi-3.2.1-h4deb6c0_3.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pysocks-1.6.7-py36hd97a5b1_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed xz-5.2.3-h2bcbf08_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed ncurses-6.0-h06874d7_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed requests-2.18.4-py36he2e5f8d_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pip-9.0.1-py36h6c6f9ce_4.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed cffi-1.10.0-py36had8d393_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed pycosat-0.6.2-py36h1a0ea17_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed chardet-3.0.4-py36h0f667ec_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed tk-8.6.7-h5979e9b_1.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Removed libedit-3.1-heed3624_0.tar.bz2
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Will remove the following packages:
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1                     66 KB
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3                     6.4 MB
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1                     4 KB
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Total:                                       6.4 MB
+   2017-11-21T12:41:48.57+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:41:48.63+0530 [STG/0] OUT removing six-1.10.0-py36hcac75e4_1
+   2017-11-21T12:41:48.63+0530 [STG/0] OUT removing pip-9.0.1-py36h8ec8b28_3
+   2017-11-21T12:41:48.63+0530 [STG/0] OUT removing conda-env-2.6.0-h36134e3_1
+   2017-11-21T12:41:48.66+0530 [STG/0] OUT -----> Fixing paths...
+   2017-11-21T12:41:49.03+0530 [STG/0] OUT -----> Finished compile step
+   2017-11-21T12:42:06.77+0530 [STG/245] OUT -----> Uploading droplet (137M)
+   2017-11-21T12:42:17.67+0530 [DEA/245] OUT Starting app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR     Traceback (most recent call last):[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR   File "run.py", line 15, in <module>[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR     from cv_predict import run_model[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR   File "/home/vcap/app/cv_predict.py", line 44[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR     image_np = cv2.resize(image_np, MODEL_INPUT_SIZE)[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR                                                     ^[0m
+   [31m2017-11-21T12:42:27.40+0530 [App/0] ERR TabError: inconsistent use of tabs and spaces in indentation[0m
+   2017-11-21T12:42:27.43+0530 [App/0] OUT     
+   [31m2017-11-21T12:42:27.45+0530 [DEA/245] ERR Instance (index 0) failed to start accepting connections[0m
+   2017-11-21T12:42:27.45+0530 [API/0] OUT App instance exited with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 payload: {"cc_partition"=>"default", "droplet"=>"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7", "version"=>"7774f293-5e54-4772-81f0-9d017cbdfd3d", "instance"=>"7ad80596028741eebf926bd38d9ceba8", "index"=>0, "reason"=>"CRASHED", "exit_status"=>1, "exit_description"=>"failed to accept connections within health check timeout", "crash_timestamp"=>1511248347}
+   2017-11-21T12:42:27.47+0530 [API/6] OUT App instance exited with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 payload: {"cc_partition"=>"default", "droplet"=>"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7", "version"=>"7774f293-5e54-4772-81f0-9d017cbdfd3d", "instance"=>"7ad80596028741eebf926bd38d9ceba8", "index"=>0, "reason"=>"CRASHED", "exit_status"=>1, "exit_description"=>"failed to accept connections within health check timeout", "crash_timestamp"=>1511248347}
+   2017-11-21T12:43:00.12+0530 [API/1] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"name"=>"webinar-demo-dattaraj", "command"=>"PRIVATE DATA HIDDEN", "memory"=>4096, "disk_quota"=>2048, "buildpack"=>"https://github.com/ihuston/python-conda-buildpack.git", "environment_json"=>"PRIVATE DATA HIDDEN"})
+   2017-11-21T12:43:12.93+0530 [API/0] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STOPPED"})
+   2017-11-21T12:43:16.55+0530 [DEA/157] OUT Got staging request for app with id 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   2017-11-21T12:43:18.85+0530 [API/4] OUT Updated app with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 ({"state"=>"STARTED"})
+   2017-11-21T12:43:19.11+0530 [STG/157] OUT -----> Downloaded app package (22M)
+   2017-11-21T12:43:19.53+0530 [STG/157] OUT -----> Downloaded app buildpack cache (52M)
+   [31m2017-11-21T12:43:19.66+0530 [STG/0] ERR     Cloning into '/tmp/buildpacks/python-conda-buildpack'...[0m
+   2017-11-21T12:43:20.08+0530 [STG/0] OUT     -----> Starting compile step...
+   2017-11-21T12:43:20.09+0530 [STG/0] OUT -----> Preparing Python Environment...
+   2017-11-21T12:43:20.10+0530 [STG/0] OUT PREFIX=/tmp/staged/app/.conda
+   2017-11-21T12:43:20.51+0530 [STG/0] OUT installing: python-3.6.3-hc9025b9_1 ...
+   [31m2017-11-21T12:43:23.68+0530 [STG/0] ERR Python 3.6.3 :: Anaconda, Inc.[0m
+   2017-11-21T12:43:23.68+0530 [STG/0] OUT installing: ca-certificates-2017.08.26-h1d4fec5_0 ...
+   2017-11-21T12:43:23.77+0530 [STG/0] OUT installing: conda-env-2.6.0-h36134e3_1 ...
+   2017-11-21T12:43:23.83+0530 [STG/0] OUT installing: libgcc-ng-7.2.0-h7cc24e2_2 ...
+   2017-11-21T12:43:24.64+0530 [STG/0] OUT installing: libstdcxx-ng-7.2.0-h7a57d05_2 ...
+   2017-11-21T12:43:25.01+0530 [STG/0] OUT installing: libffi-3.2.1-h4deb6c0_3 ...
+   2017-11-21T12:43:25.09+0530 [STG/0] OUT installing: ncurses-6.0-h06874d7_1 ...
+   2017-11-21T12:43:25.81+0530 [STG/0] OUT installing: openssl-1.0.2l-h077ae2c_5 ...
+   2017-11-21T12:43:26.58+0530 [STG/0] OUT installing: tk-8.6.7-h5979e9b_1 ...
+   2017-11-21T12:43:27.14+0530 [STG/0] OUT installing: xz-5.2.3-h2bcbf08_1 ...
+   2017-11-21T12:43:27.26+0530 [STG/0] OUT installing: yaml-0.1.7-h96e3832_1 ...
+   2017-11-21T12:43:27.33+0530 [STG/0] OUT installing: zlib-1.2.11-hfbfcf68_1 ...
+   2017-11-21T12:43:27.40+0530 [STG/0] OUT installing: libedit-3.1-heed3624_0 ...
+   2017-11-21T12:43:27.48+0530 [STG/0] OUT installing: readline-7.0-hac23ff0_3 ...
+   2017-11-21T12:43:27.60+0530 [STG/0] OUT installing: sqlite-3.20.1-h6d8b0f3_1 ...
+   2017-11-21T12:43:27.84+0530 [STG/0] OUT installing: asn1crypto-0.22.0-py36h265ca7c_1 ...
+   2017-11-21T12:43:27.93+0530 [STG/0] OUT installing: certifi-2017.7.27.1-py36h8b7b77e_0 ...
+   2017-11-21T12:43:28.02+0530 [STG/0] OUT installing: chardet-3.0.4-py36h0f667ec_1 ...
+   2017-11-21T12:43:28.11+0530 [STG/0] OUT installing: idna-2.6-py36h82fb2a8_1 ...
+   2017-11-21T12:43:28.19+0530 [STG/0] OUT installing: pycosat-0.6.2-py36h1a0ea17_1 ...
+   2017-11-21T12:43:28.26+0530 [STG/0] OUT installing: pycparser-2.18-py36hf9f622e_1 ...
+   2017-11-21T12:43:28.35+0530 [STG/0] OUT installing: pysocks-1.6.7-py36hd97a5b1_1 ...
+   2017-11-21T12:43:28.41+0530 [STG/0] OUT installing: ruamel_yaml-0.11.14-py36ha2fb22d_2 ...
+   2017-11-21T12:43:28.51+0530 [STG/0] OUT installing: six-1.10.0-py36hcac75e4_1 ...
+   2017-11-21T12:43:28.57+0530 [STG/0] OUT installing: cffi-1.10.0-py36had8d393_1 ...
+   2017-11-21T12:43:28.66+0530 [STG/0] OUT installing: setuptools-36.5.0-py36he42e2e1_0 ...
+   2017-11-21T12:43:28.82+0530 [STG/0] OUT installing: cryptography-2.0.3-py36ha225213_1 ...
+   2017-11-21T12:43:29.00+0530 [STG/0] OUT installing: wheel-0.29.0-py36he7f4e38_1 ...
+   2017-11-21T12:43:29.08+0530 [STG/0] OUT installing: pip-9.0.1-py36h8ec8b28_3 ...
+   2017-11-21T12:43:29.45+0530 [STG/0] OUT installing: pyopenssl-17.2.0-py36h5cc804b_0 ...
+   2017-11-21T12:43:29.52+0530 [STG/0] OUT installing: urllib3-1.22-py36hbe7ace6_0 ...
+   2017-11-21T12:43:29.61+0530 [STG/0] OUT installing: requests-2.18.4-py36he2e5f8d_1 ...
+   2017-11-21T12:43:29.69+0530 [STG/0] OUT installing: conda-4.3.30-py36h5d9f9f4_0 ...
+   2017-11-21T12:43:29.92+0530 [STG/0] OUT installation finished.
+   2017-11-21T12:43:29.92+0530 [STG/0] OUT -----> Installing Dependencies...
+   2017-11-21T12:43:36.70+0530 [STG/0] OUT # All requested packages already installed.
+   2017-11-21T12:43:36.70+0530 [STG/0] OUT # packages in environment at /tmp/staged/app/.conda:
+   2017-11-21T12:43:36.70+0530 [STG/0] OUT #
+   2017-11-21T12:43:36.70+0530 [STG/0] OUT conda                     4.3.30           py36h5d9f9f4_0  
+   2017-11-21T12:43:39.99+0530 [STG/0] OUT Package plan for installation in environment /tmp/staged/app/.conda:
+   2017-11-21T12:43:39.99+0530 [STG/0] OUT The following packages will be UPDATED:
+   2017-11-21T12:43:39.99+0530 [STG/0] OUT     pip: 9.0.1-py36h8ec8b28_3 --> 9.0.1-py36h6c6f9ce_4
+   2017-11-21T12:43:40.04+0530 [STG/0] OUT -----> Installing pip packages from requirements.txt...
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT Will remove the following tarballs:
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT openssl-1.0.2l-h077ae2c_5.tar.bz2            3.4 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT zlib-1.2.11-hfbfcf68_1.tar.bz2               101 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2       78 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1.tar.bz2             2 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT urllib3-1.22-py36hbe7ace6_0.tar.bz2          155 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3.tar.bz2             1.7 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1.tar.bz2             20 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2     205 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2     263 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pysocks-1.6.7-py36hd97a5b1_1.tar.bz2          22 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pycosat-0.6.2-py36h1a0ea17_1.tar.bz2         104 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT xz-5.2.3-h2bcbf08_1.tar.bz2                  356 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT chardet-3.0.4-py36h0f667ec_1.tar.bz2         190 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT libffi-3.2.1-h4deb6c0_3.tar.bz2               43 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT sqlite-3.20.1-h6d8b0f3_1.tar.bz2             1.5 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2     149 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT readline-7.0-hac23ff0_3.tar.bz2              387 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT ncurses-6.0-h06874d7_1.tar.bz2               907 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pip-9.0.1-py36h6c6f9ce_4.tar.bz2             2.2 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT conda-4.3.30-py36h5d9f9f4_0.tar.bz2          511 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT yaml-0.1.7-h96e3832_1.tar.bz2                 84 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT cryptography-2.0.3-py36ha225213_1.tar.bz2     591 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT idna-2.6-py36h82fb2a8_1.tar.bz2              122 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2        2.5 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT cffi-1.10.0-py36had8d393_1.tar.bz2           206 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT wheel-0.29.0-py36he7f4e38_1.tar.bz2           88 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT setuptools-36.5.0-py36he42e2e1_0.tar.bz2     512 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2     210 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT tk-8.6.7-h5979e9b_1.tar.bz2                  3.2 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT python-3.6.3-hc9025b9_1.tar.bz2             27.0 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2           6.1 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT requests-2.18.4-py36he2e5f8d_1.tar.bz2        92 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT pycparser-2.18-py36hf9f622e_1.tar.bz2        169 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT libedit-3.1-heed3624_0.tar.bz2               171 KB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT Total:                                      53.1 MB
+   2017-11-21T12:43:49.62+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed openssl-1.0.2l-h077ae2c_5.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed zlib-1.2.11-hfbfcf68_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pyopenssl-17.2.0-py36h5cc804b_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed conda-env-2.6.0-h36134e3_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed urllib3-1.22-py36hbe7ace6_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pip-9.0.1-py36h8ec8b28_3.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed six-1.10.0-py36hcac75e4_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed certifi-2017.7.27.1-py36h8b7b77e_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed ca-certificates-2017.08.26-h1d4fec5_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pysocks-1.6.7-py36hd97a5b1_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pycosat-0.6.2-py36h1a0ea17_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed xz-5.2.3-h2bcbf08_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed chardet-3.0.4-py36h0f667ec_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed libffi-3.2.1-h4deb6c0_3.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed sqlite-3.20.1-h6d8b0f3_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed asn1crypto-0.22.0-py36h265ca7c_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed readline-7.0-hac23ff0_3.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed ncurses-6.0-h06874d7_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pip-9.0.1-py36h6c6f9ce_4.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed conda-4.3.30-py36h5d9f9f4_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed yaml-0.1.7-h96e3832_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed cryptography-2.0.3-py36ha225213_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed idna-2.6-py36h82fb2a8_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed libstdcxx-ng-7.2.0-h7a57d05_2.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed cffi-1.10.0-py36had8d393_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed wheel-0.29.0-py36he7f4e38_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed setuptools-36.5.0-py36he42e2e1_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed ruamel_yaml-0.11.14-py36ha2fb22d_2.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed tk-8.6.7-h5979e9b_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed python-3.6.3-hc9025b9_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed libgcc-ng-7.2.0-h7cc24e2_2.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed requests-2.18.4-py36he2e5f8d_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed pycparser-2.18-py36hf9f622e_1.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Removed libedit-3.1-heed3624_0.tar.bz2
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Cache location: /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Will remove the following packages:
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT /tmp/staged/app/.conda/pkgs
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT ---------------------------
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT six-1.10.0-py36hcac75e4_1                     66 KB
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT pip-9.0.1-py36h8ec8b28_3                     6.4 MB
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT conda-env-2.6.0-h36134e3_1                     4 KB
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT ---------------------------------------------------
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Total:                                       6.4 MB
+   2017-11-21T12:43:49.68+0530 [STG/0] OUT Proceed ([y]/n)? 
+   2017-11-21T12:43:49.75+0530 [STG/0] OUT removing six-1.10.0-py36hcac75e4_1
+   2017-11-21T12:43:49.75+0530 [STG/0] OUT removing pip-9.0.1-py36h8ec8b28_3
+   2017-11-21T12:43:49.75+0530 [STG/0] OUT removing conda-env-2.6.0-h36134e3_1
+   2017-11-21T12:43:49.78+0530 [STG/0] OUT -----> Fixing paths...
+   2017-11-21T12:43:50.15+0530 [STG/0] OUT -----> Finished compile step
+   2017-11-21T12:44:07.91+0530 [STG/157] OUT -----> Uploading droplet (137M)
+   2017-11-21T12:44:19.88+0530 [DEA/157] OUT Starting app instance (index 0) with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR     Traceback (most recent call last):[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR   File "run.py", line 15, in <module>[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR     from predict import run_model[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR   File "/home/vcap/app/predict.py", line 44[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR     image_np = cv2.resize(image_np, MODEL_INPUT_SIZE)[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR                                                     ^[0m
+   [31m2017-11-21T12:44:28.71+0530 [App/0] ERR TabError: inconsistent use of tabs and spaces in indentation[0m
+   2017-11-21T12:44:28.74+0530 [App/0] OUT     
+   [31m2017-11-21T12:44:28.82+0530 [DEA/157] ERR Instance (index 0) failed to start accepting connections[0m
+   2017-11-21T12:44:28.86+0530 [API/5] OUT App instance exited with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 payload: {"cc_partition"=>"default", "droplet"=>"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7", "version"=>"36ac9325-6cf1-45c7-bad9-25b84dfd602c", "instance"=>"f69926b77ba14c129659c24babc6c00d", "index"=>0, "reason"=>"CRASHED", "exit_status"=>1, "exit_description"=>"failed to accept connections within health check timeout", "crash_timestamp"=>1511248468}
+   2017-11-21T12:44:28.86+0530 [API/2] OUT App instance exited with guid 1fbf36b1-9ede-42ed-a47a-4ea4b96717b7 payload: {"cc_partition"=>"default", "droplet"=>"1fbf36b1-9ede-42ed-a47a-4ea4b96717b7", "version"=>"36ac9325-6cf1-45c7-bad9-25b84dfd602c", "instance"=>"f69926b77ba14c129659c24babc6c00d", "index"=>0, "reason"=>"CRASHED", "exit_status"=>1, "exit_description"=>"failed to accept connections within health check timeout", "crash_timestamp"=>1511248468}

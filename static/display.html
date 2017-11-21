@@ -1,0 +1,17 @@
+<html>
+<head>
+<title>DEMO of Deep Learning in Predix Cloud - Using Caffe on CloudFoundry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	 <img src="predix.png"/>&nbsp;&nbsp;<font size="30">+</font>&nbsp;&nbsp;<img src="caffe.jpg"/>
+    <p>Caffe demo on Predix Cloud. Input the image URL which has to be analyzed. We will use a SSD model (Single-shot Detector) - which will identify specific objects from different categories and draw bounding boxes around the objects detected. </p>
+    <form method=GET action='/imgurl'>
+	<div class="myform">
+      <p>Enter the image URL: 
+		  <input type="text" name="imgurl" value="http://cdn.odishatv.in/wp-content/uploads/2016/06/level-crossing.jpg" style="width:800px">
+          <input type="submit"  class="button" value="Load URL"></p>
+	</div>
+    </form>
+</body>
+</html>

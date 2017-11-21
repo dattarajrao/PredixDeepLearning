@@ -1,0 +1,26 @@
+p {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+input {
+	font-family: Arial;
+	font-size: 20px;
+}
+
+.myform : {
+	width: 800px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

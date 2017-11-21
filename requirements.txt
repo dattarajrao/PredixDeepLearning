@@ -1,0 +1,4 @@
+Flask==0.12.1
+numpy==1.13.1
+opencv-python==3.3.0.10
+six==1.11.0

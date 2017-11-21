@@ -1,0 +1,7 @@
+---
+applications:
+- name: webinar-demo-dattaraj
+  memory: 4G
+  disk_quota: 2048M
+  command: python run.py
+  buildpack: https://github.com/ihuston/python-conda-buildpack.git
