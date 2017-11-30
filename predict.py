@@ -54,7 +54,7 @@ def run_model(image_np):
     if image_np is None:
         return retimages
     # get image dimensions
-    (h, w) = image.shape[:2]
+    (h, w) = image_np.shape[:2]
     # create a conv net friendly image with mean averaging and scaling 
     blob = cv2.dnn.blobFromImage(cv2.resize(image_np, (300, 300)), 0.007843,(300, 300), 127.5)
     # pass this blob as input to the network
